@@ -1,6 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
 PackageIdentifier: Novara.Novara
 PackageVersion: 9.0.0
+DefaultLocale: en-US
 PackageLocale: en-US
 Publisher: Novara
 PublisherUrl: https://novara.xin
