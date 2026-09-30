@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+PackageIdentifier: Novara.Novara
+PackageVersion: 9.2.0
+Installers:
+  - Architecture: x64
+    InstallerType: inno
+    InstallerUrl: https://github.com/Novara-owner/Novara-Vault/releases/download/v9.2.0/Novara_Setup_9.2.0.exe
+    InstallerSha256: 7fc8e8a0719405cb9d012be001e11a8efdb28eda161c3e5e4bd8656fd1044052
+    InstallerSwitches:
+      Silent: /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+      SilentWithProgress: /SILENT /SUPPRESSMSGBOXES /NORESTART
+ManifestType: installer
+ManifestVersion: 1.10.0
